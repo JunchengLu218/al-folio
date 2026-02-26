@@ -1,97 +1,81 @@
-- title: General Information
+- title: 基本信息
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: 姓名
+      value: 你的名字
+    - name: 求职意向
+      value: 全栈开发工程师 / 后端工程师 / AI 应用工程师
+    - name: 所在地
+      value: 中国（支持远程）
+    - name: 邮箱
+      value: your_email@example.com
+    - name: GitHub
+      value: https://github.com/your-username
 
-- title: Education
+- title: 教育经历
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: 计算机科学与技术 本科 / 硕士
+      institution: 你的学校
+      year: 20XX - 20XX
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - 主修课程：数据结构、操作系统、数据库、计算机网络。
+        - 毕业设计：可填写与你岗位匹配的系统或研究课题。
 
-- title: Experience
+- title: 工作经历
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: 高级软件工程师
+      institution: 某科技公司
+      year: 20XX - 至今
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - 负责核心业务系统设计与开发，提升系统稳定性和可维护性。
+        - 主导接口性能优化，关键接口平均响应时间降低 40%。
+        - 推动 CI/CD 流程建设，发布效率显著提升。
+    - title: 软件工程师
+      institution: 某互联网公司
+      year: 20XX - 20XX
       description:
-        - Description 1.
-        - Description 2.
+        - 参与从 0 到 1 的业务平台建设，支持多角色协同与权限管理。
+        - 编写自动化测试与监控告警脚本，降低线上故障率。
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: 代表项目
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: 智能知识库问答系统
+      year: 20XX
+      description:
+        - 基于 LLM + 向量检索实现企业文档问答。
+        - 支持多轮对话、引用溯源与权限隔离。
+    - title: 数据分析与可视化平台
+      year: 20XX
+      description:
+        - 构建 ETL 流程与指标看板，实现多部门统一数据口径。
+        - 支持定时任务、异常检测与报表导出。
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: 技能清单
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 编程语言
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python、TypeScript、Java、SQL
+    - title: 框架与工具
       items:
-        - Description 1.
-        - Description 2.
+        - React、Vue、FastAPI、Spring Boot、Docker、GitHub Actions
+    - title: 数据与 AI
+      items:
+        - Pandas、PyTorch、LangChain、向量数据库
 
-- title: Other Interests
+- title: 奖项与证书
+  type: time_table
+  contents:
+    - year: 20XX
+      items:
+        - 例如：省级/国家级竞赛奖项
+        - 例如：云计算/数据分析/项目管理相关证书
+
+- title: 个人优势
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - 擅长跨团队沟通与需求拆解，能够快速推进项目落地。
+    - 有较强的问题定位与性能优化能力，重视工程质量。
